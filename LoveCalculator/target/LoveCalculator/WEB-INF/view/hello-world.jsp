@@ -3,6 +3,6 @@
 	<title>Spring MVC using SelliniumExpress</title>
 </head>
 <body>
-	<a href="google.com"></a>
+	<p>TestController works!</p>
 </body>
 </html>

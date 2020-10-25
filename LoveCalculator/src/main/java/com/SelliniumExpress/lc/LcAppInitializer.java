@@ -2,7 +2,8 @@ package com.SelliniumExpress.lc;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class LcAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class LcAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer 
+{
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
@@ -13,14 +14,14 @@ public class LcAppInitializer extends AbstractAnnotationConfigDispatcherServletI
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 
-		Class config[] = {LoveCalculatorAppConfig.class}; 
+		Class arr[] = {LoveCalculatorAppConfig.class}; 
 		
-		return config;
+		return arr;
 	}
 
 	@Override
 	protected String[] getServletMappings() {
-		String arr[] = {"/home.com/*"};
+		String arr[] = {"/"};
 		return arr;
 	}
 
